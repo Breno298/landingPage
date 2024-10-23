@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    height: 13vh;
+    font-family: "Open Sans", sans-serif;
+}
+.navigation{
+    display: flex;
+    height: 100%;
+}
+.anchor{
+    height: 100%;
+    display: flex;
+    width: 5vw;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+.anchor a{
+    text-decoration: none; 
+    color: rgb(113, 111, 111); 
+
+}
+.anchor:hover{
+    color: white;
+    background-color: orangered;
+}
+.anchor:hover a{
+    color: white;
+}
+.anchor a{
+    text-decoration: none;
+    color: rgb(101, 101, 101);
+}
+.getQuote{
+    width: 10vw;
+    background-color: orangered;
+    color: white;
+    border: none;
+    height: 4vh;
+    cursor: pointer;
+    
+}
+
+.imagem img{
+    width: 100vw;
+    height: 50vh;
+}
+.safefaster{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.preto{
+    position: absolute;
+    justify-content: center;
+    align-items: center; 
+    font-family: "Open Sans", sans-serif;
+}
+.safe h3{
+    color: orangered;  
+}
+.logistics h1{
+    color: white;
+}
+.input{
+    display: flex;
+    border: none;
+   
+}
+.inputs{
+    width: 15vw;
+    height: 5vh;
+}
+.botao{
+    width: 8vw;
+    height: 5vh;
+    background-color: orangered;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+
